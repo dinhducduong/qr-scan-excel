@@ -1,4 +1,4 @@
-const SHEETDB_URL = process.env.SHEETDB_URL;
+const SHEETDB_URL = 'https://sheetdb.io/api/v1/ce1x9rqgfxcv8';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
