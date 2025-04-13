@@ -9,7 +9,7 @@ export default function QRScanner() {
   const [isScanning, setIsScanning] = useState(false);
   const [status, setStatus] = useState("📸 Sẵn sàng quét mã QR vận đơn...");
 
-  const SHEETDB_URL = "https://sheetdb.io/api/v1/XXXXXX"; // <== Thay URL API của bạn!
+  const SHEETDB_URL = "https://sheetdb.io/api/v1/ce1x9rqgfxcv8"; // <== Thay URL API của bạn!
 
   const handleScanSuccess = async (orderCode) => {
     if (isScanning) return;  // chống lặp
